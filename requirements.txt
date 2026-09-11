@@ -1,4 +1,33 @@
 Flask>=3.0,<4
 requests>=2.31,<3
-Flask
-requests
+
+FLOW FILIPINO AI
+       │
+       ▼
+ AI SERVER :3000
+       │
+       ├── Story Planner
+       │
+       ├── Genre Engine
+       │
+       ├── Character MasterRef
+       │
+       ├── Scene Generator
+       │
+       ├── Image Prompt Engine
+       │
+       └── Video Prompt Engine
+              │
+              ▼
+       ENGINE SELECTOR
+              │
+       ┌──────┼──────────┐
+       ▼      ▼          ▼
+   WAN LOCAL GEMINI     VEO
+   + ComfyUI   OMNI
+       │
+       ▼
+   FFmpeg
+       │
+       ▼
+ FINAL 9:16 MP4
